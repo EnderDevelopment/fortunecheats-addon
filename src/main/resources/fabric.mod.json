@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "marketplace",
+  "version": "1.0.0",
+  "name": "Marketplace Economy",
+  "description": "A persistent server shop, money system, and occasional free-item gifts.",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.enderdevelopment.marketplace.MarketplaceMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
